@@ -1039,7 +1039,7 @@ body:hover .cursor {
 }
 /* Case 3 — materiais de comunicação */
 .project-card[data-project="2"] .case3-cover-art { background:#07130f; }
-.case3-cover-image { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; }
+.case3-cover-image { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center; }
 .case-media-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
 .case-media-card { min-width:0; overflow:hidden; border:1px solid var(--line); border-radius:12px; background:rgba(255,255,255,.55); color:var(--ink); text-decoration:none; transition:transform .2s,border-color .2s,box-shadow .2s; }
 .case-media-card:hover { transform:translateY(-3px); border-color:var(--pink); box-shadow:0 10px 24px #17171412; }
