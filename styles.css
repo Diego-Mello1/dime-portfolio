@@ -1058,7 +1058,7 @@ body:hover .cursor {
 .about-copy { width:100%; max-width:1160px; margin:0 auto; font-size:clamp(17px,1.55vw,21px); line-height:1.5; }
 .about-identity { margin:0 0 30px; }
 .about-identity .eyebrow { line-height:1.5; }
-.about-photo-frame.about-photo-flow { float:right; width:min(37%,390px); height:clamp(320px,32vw,430px); margin:0 0 26px 38px; position:relative; overflow:hidden; background:#17233b; border:1px solid rgba(23,23,20,.22); box-shadow:10px 10px 0 rgba(23,23,20,.12); }
+.about-photo-frame.about-photo-flow { float:right; width:min(34%,300px); height:auto; aspect-ratio:4/5; margin:0 0 26px 38px; position:relative; overflow:hidden; background:#17233b; border:1px solid rgba(23,23,20,.22); box-shadow:10px 10px 0 rgba(23,23,20,.12); }
 .about-photo-flow .about-photo { display:block; width:100%; height:100%; object-fit:cover; object-position:center 28%; }
 .about-photo-flow .about-photo-caption { display:block; position:absolute; left:14px; bottom:14px; padding:7px 10px; background:var(--yellow); color:var(--ink); font:9px 'DM Mono',monospace; letter-spacing:.1em; }
 .about-copy .about-intro { max-width:1000px; margin:0 0 28px; font-size:clamp(20px,2vw,28px); line-height:1.35; }
@@ -1068,7 +1068,7 @@ body:hover .cursor {
 .about-copy li:last-child { margin-bottom:0; }
 .about-copy .stats { clear:both; gap:40px; margin-top:36px; padding-top:24px; border-top:1px solid rgba(23,23,20,.2); }
 @media(max-width:700px) {
-  .about-photo-frame.about-photo-flow { float:none; width:min(100%,420px); height:clamp(300px,90vw,420px); margin:0 auto 26px; }
+  .about-photo-frame.about-photo-flow { float:none; width:min(76%,300px); height:auto; aspect-ratio:4/5; margin:0 auto 26px; }
   .about-copy .about-intro { font-size:clamp(19px,5vw,24px); }
   .about-copy .stats { gap:22px; }
 }
