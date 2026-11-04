@@ -188,7 +188,7 @@ nav a:hover {
   height:clamp(100px,11vw,150px);
   left:calc(50% - clamp(50px,5.5vw,75px));
   top:calc(50% - clamp(50px,5.5vw,75px));
-  transform:rotate(var(--a)) translateY(clamp(-158px,-9.5vw,-85px));
+  transform:rotate(var(--a)) translateY(clamp(-170px,-10.7vw,-98px));
   transform-origin:center
 }
 
@@ -897,11 +897,11 @@ body:hover .cursor {
     margin:-6px 0 12px
   }
   .orbit-item {
-    width:clamp(72px,18vw,90px);
-    height:clamp(72px,18vw,90px);
+    width:clamp(56px,16vw,72px);
+    height:clamp(56px,16vw,72px);
     left:calc(50% - clamp(36px,9vw,45px));
     top:calc(50% - clamp(36px,9vw,45px));
-    transform:rotate(var(--a)) translateY(clamp(-82px,-19vw,-62px))
+    transform:rotate(var(--a)) translateY(clamp(-92px,-22vw,-70px))
   }
   .orbit-art {
     padding:6px 5px;
@@ -1082,3 +1082,7 @@ body:hover .cursor {
 /* Círculos removidos; play sutil sobre as capas do álbum */
 .orbit-art:before { display:none; }
 .orbit-art .orbit-play { position:absolute; top:7px; right:7px; z-index:4; width:auto; max-width:none; padding:0; background:transparent; color:#fff; font:700 15px/1 Arial,sans-serif; letter-spacing:0; opacity:.98; text-shadow:0 1px 1px #000,0 0 4px #000,0 0 8px rgba(0,0,0,.95); }
+
+/* Capas genéricas para experiência e formação no álbum */
+.orbit-five { background:radial-gradient(circle at 28% 28%,var(--yellow) 0 12%,transparent 13%),linear-gradient(135deg,#53c5b3 0%,#165b72 58%,#152f42 100%); }
+.orbit-six { background:repeating-linear-gradient(135deg,rgba(255,255,255,.16) 0 2px,transparent 2px 11px),linear-gradient(135deg,#fabf52 0%,#f06c3f 48%,#74275a 100%); }
