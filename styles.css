@@ -592,7 +592,7 @@ section {
 /* Sobre e retrato */
 .about-profile {
   display:grid;
-  grid-template-columns:minmax(0,1.3fr) minmax(0,.9fr);
+  grid-template-columns:minmax(0,1.15fr) minmax(0,.9fr);
   gap:24px;
   align-items:stretch
 }
