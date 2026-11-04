@@ -1081,4 +1081,4 @@ body:hover .cursor {
 
 /* Círculos removidos; play sutil sobre as capas do álbum */
 .orbit-art:before { display:none; }
-.orbit-art .orbit-play { position:absolute; top:8px; right:8px; z-index:4; width:auto; max-width:none; padding:0; background:transparent; color:#fff; font:700 8px/1 Arial,sans-serif; letter-spacing:0; opacity:.68; text-shadow:0 1px 2px rgba(0,0,0,.9),0 0 8px rgba(0,0,0,.7); }
+.orbit-art .orbit-play { position:absolute; top:7px; right:7px; z-index:4; width:auto; max-width:none; padding:0; background:transparent; color:#fff; font:700 15px/1 Arial,sans-serif; letter-spacing:0; opacity:.98; text-shadow:0 1px 1px #000,0 0 4px #000,0 0 8px rgba(0,0,0,.95); }
