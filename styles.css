@@ -889,19 +889,19 @@ body:hover .cursor {
   }
   .sunburst {
     position:relative;
-    width:min(68vw,270px);
-    height:min(68vw,270px);
+    width:min(82vw,320px);
+    height:min(82vw,320px);
     right:auto;
     top:auto;
     align-self:center;
-    margin:-6px 0 12px
+    margin:14px 0 20px
   }
   .orbit-item {
-    width:clamp(56px,16vw,72px);
-    height:clamp(56px,16vw,72px);
-    left:calc(50% - clamp(28px,8vw,36px));
-    top:calc(50% - clamp(28px,8vw,36px));
-    transform:rotate(var(--a)) translateY(clamp(-92px,-22vw,-70px))
+    width:clamp(70px,19vw,86px);
+    height:clamp(70px,19vw,86px);
+    left:calc(50% - clamp(35px,9.5vw,43px));
+    top:calc(50% - clamp(35px,9.5vw,43px));
+    transform:rotate(var(--a)) translateY(clamp(-112px,-26vw,-82px))
   }
   .orbit-art {
     padding:6px 5px;
