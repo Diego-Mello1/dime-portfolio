@@ -125,7 +125,7 @@ nav a:hover {
 }
 
 .hero-copy {
-  max-width:380px;
+  max-width:440px;
   font-size:17px;
   line-height:1.5
 }
@@ -915,7 +915,7 @@ body:hover .cursor {
   }
   .hero-copy {
     font-size:15px;
-    max-width:310px
+    max-width:340px
   }
   .hero-stamp {
     bottom:30%;
