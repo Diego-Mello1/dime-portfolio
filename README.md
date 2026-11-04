@@ -1,16 +1,18 @@
 # Portfólio do Dime
 
-Site-portfólio estático para copywriting e marketing, feito com HTML, CSS e JavaScript puro. O projeto pode ser publicado pelo GitHub Pages.
+Portfólio estático de Diego de Mello Pereira (Dime), com foco em copywriting, marketing, comunicação e experiência do cliente. Feito com HTML, CSS e JavaScript puro e preparado para GitHub Pages.
 
 ## Arquivos
 
 - `index.html` — conteúdo e estrutura das seções
 - `styles.css` — cores, layout, responsividade e animações
-- `script.js` — interação dos cartões de projetos e animação do cursor
+- `script.js` — interação dos cartões de atuação e animação do cursor
+- `Currículo-Diego Mello.pdf` — arquivo usado pelo botão de download, na raiz do repositório
+- `perfil 2.png` — foto do Dime usada na seção Sobre (na raiz do repositório)
 
 ## Pré-visualização local
 
-Abra `index.html` no navegador. Para editar, abra a pasta no VS Code ou em outro editor de código.
+Abra `index.html` no navegador. Para ver a foto também na prévia local, copie `perfil 2.png` para a raiz desta pasta. Para editar, abra a pasta no VS Code ou em outro editor de código.
 
 ## Publicar no GitHub Pages
 
@@ -21,4 +23,7 @@ Abra `index.html` no navegador. Para editar, abra a pasta no VS Code ou em outro
 
 ## Antes de publicar
 
-Substitua os textos e projetos demonstrativos por informações reais do Dime. Atualize também o e-mail, o endereço do WhatsApp, o perfil do LinkedIn, o currículo e a imagem de compartilhamento. Os endereços atuais de WhatsApp e LinkedIn são genéricos.
+Confira o telefone, o e-mail e os links profissionais. O número e o e-mail publicados serão exibidos no site, e o currículo estará disponível para download.
+
+
+
