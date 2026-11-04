@@ -57,14 +57,42 @@ COMPETÊNCIAS — Recruitment Marketing, Employer Branding, planejamento editori
   },
   {
     title: 'Conteúdo com estratégia',
-    meta: 'Social Media · Branding · LinkedIn · Pode Rio Estúdio · 2025–2026',
-    intro: 'Planejamento de conteúdo para LinkedIn com foco em branding, marketing de conteúdo e fortalecimento da presença digital da marca.',
-    body: `ATUAÇÃO — Estratégia de conteúdo, planejamento editorial e calendário de publicações.
+    meta: 'SOCIAL MEDIA · GESTÃO DE PROJETOS · PRODUÇÃO AUDIOVISUAL',
+    intro: 'Estratégia de conteúdo para LinkedIn conectada à organização de projetos e à operação audiovisual.',
+    body: `ESTRATÉGIA DE LINKEDIN — De março a junho de 2026, Dime planejou a presença da marca: definiu calendário editorial, pautas e copy, revisou e agendou publicações, aplicou SEO on-page e acompanhou indicadores e oportunidades de comunicação.
 
-ENTREGAS — Produção de copy, revisão de textos e otimização SEO para ampliar alcance orgânico e engajamento.
+RESULTADO — O alcance orgânico cresceu 120% em relação ao desempenho inicial, sem investimento em mídia paga. A presença digital também se fortaleceu, com mais comentários, compartilhamentos e seguidores.
 
-OUTRA FRENTE — Gestão de projetos audiovisuais e operações, organização de processos, prioridades, equipe multidisciplinar e entregas.`,
+GESTÃO DE PROJETOS — De outubro de 2025 a março de 2026, Dime acompanhou cronogramas e entregas audiovisuais, coordenou equipes, distribuiu tarefas e organizou fluxos com Trello e Google Sheets. Também conduziu alinhamentos, manteve contato com clientes e revisou materiais antes da entrega.
+
+PRODUÇÃO AUDIOVISUAL — De agosto de 2025 a junho de 2026, apoiou a operação e a logística de eventos, coordenou equipes de campo, organizou materiais e equipamentos e acompanhou fornecedores e prazos.
+
+CONTRIBUIÇÃO DO DIME — Conectou estratégia, criação e operação. Sua organização ajudou a manter consistência nas publicações, dar previsibilidade aos projetos e cumprir os cronogramas das produções.
+
+COMPETÊNCIAS — LinkedIn Marketing, estratégia de conteúdo, planejamento editorial, copywriting, revisão, SEO on-page, análise de engajamento, gestão de projetos, coordenação de equipes, Trello, Google Sheets, relacionamento com clientes, produção audiovisual e controle de qualidade.`,
     art: 'art-culture',
+    caseSummary: { eyebrow: 'ESTRATÉGIA · CONTEÚDO · OPERAÇÃO', headline: 'Da presença digital à entrega em equipe.', stats: [{ value: '+120%', label: 'alcance orgânico' }, { value: '3', label: 'frentes integradas' }] },
+    galleryTitle: 'Três frentes, uma operação conectada',
+    caseSections: [
+      {
+        title: 'Estratégia de LinkedIn',
+        count: 'MAR–JUN 2026',
+        description: 'Planejamento editorial, copywriting, revisão, agendamento e SEO on-page. O alcance orgânico cresceu 120% sobre o desempenho inicial, sem mídia paga.',
+        skills: ['LinkedIn Marketing', 'Conteúdo', 'SEO on-page', 'Engajamento']
+      },
+      {
+        title: 'Gestão de projetos',
+        count: 'OUT 2025–MAR 2026',
+        description: 'Coordenação de equipes, cronogramas e entregas; alinhamentos com clientes e controle de qualidade. A organização dos fluxos trouxe mais previsibilidade.',
+        skills: ['Planejamento', 'Trello', 'Google Sheets', 'Gestão de equipe']
+      },
+      {
+        title: 'Produção audiovisual',
+        count: 'AGO 2025–JUN 2026',
+        description: 'Suporte operacional e logístico a eventos, organização de materiais e equipamentos e acompanhamento de equipes de campo e fornecedores.',
+        skills: ['Produção', 'Logística', 'Cronogramas', 'Qualidade']
+      }
+    ]
   },
   {
     title: 'Comunicação que acompanha',
@@ -124,9 +152,9 @@ function openProject(index) {
   gallery.replaceChildren();
   gallery.hidden = !project.caseSections;
   if (project.caseSections) {
-    gallery.setAttribute('aria-label', 'Atuação, entregas e competências do Case 1');
+    gallery.setAttribute('aria-label', `Atuação, entregas e competências do projeto: ${project.title}`);
     const heading = document.createElement('h3');
-    heading.textContent = 'O trabalho em quatro frentes';
+    heading.textContent = project.galleryTitle || 'O trabalho em quatro frentes';
     const grid = document.createElement('div');
     grid.className = 'case-breakdown-grid';
     project.caseSections.forEach((item) => {
