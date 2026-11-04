@@ -1086,3 +1086,14 @@ body:hover .cursor {
 /* Capas genéricas para experiência e formação no álbum */
 .orbit-five { background:radial-gradient(circle at 28% 28%,var(--yellow) 0 12%,transparent 13%),linear-gradient(135deg,#53c5b3 0%,#165b72 58%,#152f42 100%); }
 .orbit-six { background:repeating-linear-gradient(135deg,rgba(255,255,255,.16) 0 2px,transparent 2px 11px),linear-gradient(135deg,#fabf52 0%,#f06c3f 48%,#74275a 100%); }
+
+/* Interação e profundidade do leque */
+.orbit-item { z-index:1; opacity:1; transition:opacity .2s ease; }
+.orbit-item.orbit-rear { z-index:0; opacity:.84; }
+.orbit-item:hover,.orbit-item:focus-within { z-index:20; opacity:1; }
+.orbit-link { pointer-events:auto; cursor:pointer; transition:transform .22s cubic-bezier(.2,.8,.2,1),filter .22s ease; }
+.orbit-link:hover,.orbit-link:focus-visible { transform:translateY(-9px) scale(1.08); filter:drop-shadow(0 10px 12px rgba(0,0,0,.28)); }
+.orbit-link:focus-visible { outline:2px solid var(--yellow); outline-offset:4px; }
+@media(max-width:700px) {
+  .orbit-link:hover,.orbit-link:focus-visible { transform:translateY(-6px) scale(1.07); }
+}
