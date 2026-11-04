@@ -1037,3 +1037,19 @@ body:hover .cursor {
  .case-summary-stats { margin-top:18px }
  .case-breakdown-grid { grid-template-columns:1fr }
 }
+/* Case 3 — materiais de comunicação */
+.project-card[data-project="2"] .case3-cover-art { background:#07130f; }
+.case3-cover-image { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; }
+.case-media-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+.case-media-card { min-width:0; overflow:hidden; border:1px solid var(--line); border-radius:12px; background:rgba(255,255,255,.55); color:var(--ink); text-decoration:none; transition:transform .2s,border-color .2s,box-shadow .2s; }
+.case-media-card:hover { transform:translateY(-3px); border-color:var(--pink); box-shadow:0 10px 24px #17171412; }
+.case-media-visual { position:relative; display:grid; place-items:center; width:100%; aspect-ratio:16/9; overflow:hidden; background:#171714; }
+.case-media-card[data-kind="PDF"] .case-media-visual { background:#f1eee7; }
+.case-media-visual img { display:block; width:100%; height:100%; object-fit:contain; }
+.case-media-type { position:absolute; top:10px; left:10px; padding:6px 8px; border-radius:99px; background:var(--yellow); color:var(--ink); font:9px 'DM Mono',monospace; letter-spacing:.06em; }
+.case-media-info { padding:14px 15px 15px; }
+.case-media-info h4 { margin:0 0 6px; font:600 15px/1.25 'Space Grotesk',sans-serif; }
+.case-media-info p { margin:0 0 12px; color:#77756e; font:10px 'DM Mono',monospace; text-transform:uppercase; letter-spacing:.04em; }
+.case-media-info small { color:#4c4841; font:10px 'DM Mono',monospace; text-transform:uppercase; letter-spacing:.05em; }
+@media(max-width:900px) { .case-media-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:520px) { .case-media-grid { grid-template-columns:1fr; } }
