@@ -1151,3 +1151,6 @@ body:hover .cursor {
  .about-overview { grid-template-areas:"identity" "portrait" "intro" "details"; row-gap:28px; }
  .about-details { padding:22px; }
 }
+
+/* Último tópico sem par ocupa a linha inteira na case 3. */
+.idea-grid > .idea-card:last-child:nth-child(odd) { grid-column:1 / -1; }
