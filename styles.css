@@ -1122,3 +1122,17 @@ body:hover .cursor {
   .about-portrait-column .about-photo-frame.about-photo-flow { width:min(76%,300px); }
   .about-bio { padding-top:0; }
 }
+
+/* Convite para explorar os projetos */
+.projects .section-head .projects-intro { max-width:360px; margin-left:auto; color:#f8f5ed; font-size:clamp(17px,1.55vw,21px); font-weight:500; line-height:1.6; text-align:right; }
+.projects-invitation { display:flex; align-items:center; gap:10px; width:fit-content; max-width:100%; margin:0 0 22px; padding:12px 18px; border:1px solid var(--pink); border-radius:999px; color:var(--pink); background:rgba(255,79,160,.06); font:500 14px/1.4 'DM Sans',sans-serif; }
+.projects-invitation > span:first-child { font-size:23px; line-height:1; }
+.projects-invitation > span:last-child { margin-left:4px; font-size:21px; }
+.projects-expand-hint { display:flex; align-items:center; justify-content:flex-end; gap:10px; margin:24px 0 0; color:var(--paper); font:500 15px/1.4 'DM Mono',monospace; }
+.projects-expand-hint span { display:grid; place-items:center; width:32px; height:32px; flex-shrink:0; border-radius:50%; background:var(--pink); color:var(--ink); font-size:21px; }
+.projects .project-card:focus-visible { outline:2px solid var(--pink); outline-offset:5px; }
+@media(max-width:700px) {
+ .projects .section-head .projects-intro { max-width:100%; margin-top:24px; font-size:18px; }
+ .projects-invitation { border-radius:18px; padding:12px 14px; font-size:13px; }
+ .projects-expand-hint { font-size:13px; }
+}
