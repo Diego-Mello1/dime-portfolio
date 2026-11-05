@@ -1109,3 +1109,16 @@ body:hover .cursor {
 .detail-text .idea-card p { max-width:none; margin:0; font-size:16px; line-height:1.7; color:#42413b; }
 @media(max-width:700px) { .idea-grid { grid-template-columns:1fr; gap:20px; } }
 @media(max-width:700px) { .idea-card { padding:20px; } }
+
+/* Retrato abaixo da apresentação, biografia à direita */
+.about-overview { display:grid; grid-template-columns:minmax(240px,.8fr) minmax(0,1.4fr); gap:clamp(36px,6vw,80px); align-items:start; }
+.about-portrait-column { min-width:0; }
+.about-portrait-column .about-identity { margin-bottom:28px; }
+.about-portrait-column .about-photo-frame.about-photo-flow { float:none; width:min(100%,320px); height:auto; min-height:0; margin:0; aspect-ratio:4/5; }
+.about-bio { min-width:0; padding-top:8px; }
+.about-results { margin-top:36px; }
+@media(max-width:700px) {
+  .about-overview { grid-template-columns:1fr; gap:32px; }
+  .about-portrait-column .about-photo-frame.about-photo-flow { width:min(76%,300px); }
+  .about-bio { padding-top:0; }
+}
