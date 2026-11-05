@@ -901,7 +901,7 @@ body:hover .cursor {
     height:clamp(88px,25vw,110px);
     left:calc(50% - clamp(44px,12.5vw,55px));
     top:calc(50% - clamp(44px,12.5vw,55px));
-    transform:rotate(var(--a)) translateY(clamp(-92px,-21vw,-67px))
+    transform:rotate(var(--a)) translateY(clamp(-100px,-23vw,-73px))
   }
   .orbit-art {
     padding:6px 5px;
