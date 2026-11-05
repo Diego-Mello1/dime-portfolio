@@ -18,6 +18,16 @@
     <meta name="twitter:image" content="https://diegomello-dmp.github.io/dime-portfolio/thumb-Link.jpg?v=portfolio-updated-20261104">
     <title>DIME - Diego Mello | Copywriting &amp; Marketing</title>
     <link rel="stylesheet" href="styles.css?v=mobile-orbit-larger-20261104">
+    <style>
+      .about-results { clear:both; padding-top:24px; }
+      .about-results h3 { margin:0 0 20px; font-weight:400; }
+      .about-copy .results-stats { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:28px; margin-top:0; padding-top:0; border-top:0; }
+      .results-stats > div { min-width:0; }
+      .results-stats strong { margin-bottom:10px; font-size:32px; line-height:1.1; letter-spacing:-.04em; }
+      .results-stats span { display:block; line-height:1.7; }
+      @media(max-width:1000px) { .about-copy .results-stats { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+      @media(max-width:480px) { .about-copy .results-stats { grid-template-columns:1fr; gap:24px; } }
+    </style>
   </head>
   <body>
     <!-- Navegacao fixa -->
@@ -178,13 +188,27 @@
           <p>Nos últimos anos, concentrei minha atuação em planejamento estratégico de conteúdo e comunicação, análise de dados, relacionamento, CRM, gestão de projetos, copywriting, employer branding, redação estratégica e social media.</p>
           <p>Crio narrativas multicanal que conectam, orientadas por SEO, dados e storytelling, aproximando marcas e pessoas.</p>
           <p>Domino ferramentas como Canva, HubSpot, RD Station, WordPress, Power BI, mLabs, Miro, Asana, Google Tasks e Google Workspace.</p>
-          <p><strong>Resultados obtidos:</strong></p>
-          <ul>
-            <li>Campanhas de atração que ultrapassaram 40 mil inscrições;</li>
-            <li>Desenvolvimento de campanhas de apoio à conversão de candidatos, com boas taxas de abertura e engajamento;</li>
-            <li>Execução de estratégias de comunicação, conteúdo e employer branding para empresas de grande porte;</li>
-            <li>Gerenciamento de mais de 20 comunidades no WhatsApp e do chat do YouTube, mantendo o engajamento durante eventos.</li>
-          </ul>
+          <div class="about-results" aria-labelledby="results-title">
+            <h3 class="mono" id="results-title">Resultados obtidos</h3>
+            <div class="stats results-stats">
+              <div>
+                <strong>40 mil+</strong>
+                <span>inscrições em campanhas de atração</span>
+              </div>
+              <div>
+                <strong>Conversão</strong>
+                <span>campanhas de apoio a candidatos, com boas taxas de abertura e engajamento</span>
+              </div>
+              <div>
+                <strong>Grandes marcas</strong>
+                <span>estratégias de comunicação, conteúdo e employer branding para empresas de grande porte</span>
+              </div>
+              <div>
+                <strong>20+</strong>
+                <span>comunidades no WhatsApp gerenciadas, além do chat do YouTube, com engajamento durante eventos</span>
+              </div>
+            </div>
+          </div>
           <div class="stats">
             <div>
               <strong>10+</strong>
