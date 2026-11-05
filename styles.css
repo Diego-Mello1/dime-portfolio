@@ -1115,7 +1115,7 @@ body:hover .cursor {
 .about-portrait-column { min-width:0; }
 .about-portrait-column .about-identity { margin-bottom:28px; }
 .about-portrait-column .about-photo-frame.about-photo-flow { float:none; width:min(100%,320px); height:auto; min-height:0; margin:0; aspect-ratio:4/5; }
-.about-bio { min-width:0; padding-top:8px; }
+.about-bio { min-width:0; padding-top:0; align-self:center; }
 .about-results { margin-top:36px; }
 @media(max-width:700px) {
   .about-overview { grid-template-columns:1fr; gap:32px; }
