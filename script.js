@@ -290,3 +290,12 @@ document.addEventListener('pointermove', (event) => {
   cursor.style.left = `${event.clientX}px`;
   cursor.style.top = `${event.clientY}px`;
 });
+
+const brandsPause = document.querySelector('.brands-pause');
+if (brandsPause) {
+  brandsPause.addEventListener('click', () => {
+    const paused = document.querySelector('#brands-track').classList.toggle('is-paused');
+    brandsPause.setAttribute('aria-pressed', String(paused));
+    brandsPause.textContent = paused ? 'Retomar movimento' : 'Pausar movimento';
+  });
+}
