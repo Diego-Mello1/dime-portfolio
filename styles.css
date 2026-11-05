@@ -1191,3 +1191,8 @@ body:hover .cursor {
  .brands-window { overflow-x:auto; mask-image:none; }
  .brands-group[aria-hidden="true"], .brands-pause { display:none; }
 }
+
+/* Retrato alinhado ao início do texto dentro da moldura. */
+@media(min-width:701px) {
+ .about-portrait-column .about-photo-frame.about-photo-flow { margin-top:64px; }
+}
