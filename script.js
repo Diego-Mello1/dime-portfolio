@@ -2,12 +2,12 @@ const projects = [
   {
     title: 'Atrair talentos',
     meta: 'RECRUITMENT MARKETING · EMPLOYER BRANDING · CONTEÚDO',
-    intro: 'Estratégia e conteúdo para acompanhar candidatos desde a descoberta da oportunidade até as etapas finais do processo.',
-    body: `DESAFIO — Comunicar programas de formação e oportunidades profissionais a públicos em início de carreira, acompanhando a candidatura da atração ao encerramento.
+    intro: 'Desenvolvi estratégia e conteúdo para acompanhar candidatos desde a descoberta da oportunidade até as etapas finais do processo.',
+    body: `DESAFIO — Meu desafio foi comunicar programas de formação e oportunidades profissionais a públicos em início de carreira, acompanhando a candidatura da atração ao encerramento.
 
-ATUAÇÃO DO DIME — Planejamento editorial e de comunicação, criação de conteúdo para canais sociais, redação de e-mails e organização da cadência de mensagens. Cada peça foi ajustada à etapa e ao objetivo: apresentar a oportunidade, orientar a candidatura, apoiar o andamento e concluir a jornada.
+MINHA ATUAÇÃO — Planejei editoriais e comunicação, criei conteúdo para canais sociais, redigi e-mails e organizei a cadência de mensagens. Ajustei cada peça à etapa e ao objetivo: apresentar a oportunidade, orientar a candidatura, apoiar o andamento e concluir a jornada.
 
-CONTRIBUIÇÃO — Dime conectou estratégia e execução. Seu trabalho transformou informações sobre programas, requisitos e benefícios em mensagens claras e acionáveis, alinhando canais e etapas para que cada comunicação conduzisse ao próximo passo.
+MINHA CONTRIBUIÇÃO — Conectei estratégia e execução. Transformei informações sobre programas, requisitos e benefícios em mensagens claras e acionáveis, alinhando canais e etapas para que cada comunicação conduzisse ao próximo passo.
 
 COMPETÊNCIAS — Recruitment Marketing, Employer Branding, planejamento editorial, comunicação estratégica, copywriting, e-mail marketing e CRM, jornada do candidato, comunicação multicanal e gestão de cronogramas.`,
     art: 'art-project-samples',
@@ -16,7 +16,7 @@ COMPETÊNCIAS — Recruitment Marketing, Employer Branding, planejamento editori
       {
         "title": "Planejamento editorial",
         "count": "6 planos",
-        "description": "Calendários e pautas para canais sociais, com temas e formatos distribuídos ao longo dos ciclos dos programas.",
+        "description": "Criei calendários e pautas para canais sociais, distribuindo temas e formatos ao longo dos ciclos dos programas.",
         "skills": [
           "Planejamento editorial",
           "Conteúdo social",
@@ -26,7 +26,7 @@ COMPETÊNCIAS — Recruitment Marketing, Employer Branding, planejamento editori
       {
         "title": "Comunicação estratégica",
         "count": "2 planos",
-        "description": "Estratégia macro desdobrada em mensagens, canais e cadência para organizar a fase de atração.",
+        "description": "Desdobrei a estratégia macro em mensagens, canais e cadência para organizar a fase de atração.",
         "skills": [
           "Estratégia de comunicação",
           "Mensagens-chave",
@@ -36,7 +36,7 @@ COMPETÊNCIAS — Recruitment Marketing, Employer Branding, planejamento editori
       {
         "title": "Atração e lançamento",
         "count": "9 e-mails",
-        "description": "Aberturas e convites que apresentam oportunidades, benefícios e requisitos, com chamadas claras para inscrição.",
+        "description": "Escrevi aberturas e convites que apresentam oportunidades, benefícios e requisitos, com chamadas claras para inscrição.",
         "skills": [
           "Copywriting",
           "E-mail marketing",
@@ -46,7 +46,7 @@ COMPETÊNCIAS — Recruitment Marketing, Employer Branding, planejamento editori
       {
         "title": "Conversão e encerramento",
         "count": "4 e-mails",
-        "description": "Lembretes, orientação sobre etapas, confirmações e retornos para concluir a jornada de candidatura com clareza.",
+        "description": "Criei lembretes, orientações sobre etapas, confirmações e retornos para concluir a jornada de candidatura com clareza.",
         "skills": [
           "CRM",
           "Jornada do candidato",
@@ -58,16 +58,16 @@ COMPETÊNCIAS — Recruitment Marketing, Employer Branding, planejamento editori
   {
     title: 'Conteúdo com estratégia',
     meta: 'SOCIAL MEDIA · GESTÃO DE PROJETOS · PRODUÇÃO AUDIOVISUAL',
-    intro: 'Estratégia de conteúdo para LinkedIn conectada à organização de projetos e à operação audiovisual.',
-    body: `ESTRATÉGIA DE LINKEDIN — De março a junho de 2026, Dime planejou a presença da marca: definiu calendário editorial, pautas e copy, revisou e agendou publicações, aplicou SEO on-page e acompanhou indicadores e oportunidades de comunicação.
+    intro: 'Conectei minha estratégia de conteúdo para LinkedIn à organização de projetos e à operação audiovisual.',
+    body: `ESTRATÉGIA DE LINKEDIN — De março a junho de 2026, Planejei a presença da marca: defini calendário editorial, pautas e copy, revisei e agendei publicações, apliquei SEO on-page e acompanhei indicadores e oportunidades de comunicação.
 
 RESULTADO — O alcance orgânico cresceu 120% em relação ao desempenho inicial, sem investimento em mídia paga. A presença digital também se fortaleceu, com mais comentários, compartilhamentos e seguidores.
 
-GESTÃO DE PROJETOS — De outubro de 2025 a março de 2026, Dime acompanhou cronogramas e entregas audiovisuais, coordenou equipes, distribuiu tarefas e organizou fluxos com Trello e Google Sheets. Também conduziu alinhamentos, manteve contato com clientes e revisou materiais antes da entrega.
+GESTÃO DE PROJETOS — De outubro de 2025 a março de 2026, acompanhei cronogramas e entregas audiovisuais, coordenei equipes, distribuí tarefas e organizei fluxos com Trello e Google Sheets. Também conduzi alinhamentos, mantive contato com clientes e revisei materiais antes da entrega.
 
-PRODUÇÃO AUDIOVISUAL — De agosto de 2025 a junho de 2026, apoiou a operação e a logística de eventos, coordenou equipes de campo, organizou materiais e equipamentos e acompanhou fornecedores e prazos.
+PRODUÇÃO AUDIOVISUAL — De agosto de 2025 a junho de 2026, apoiei a operação e a logística de eventos, coordenei equipes de campo, organizei materiais e equipamentos e acompanhei fornecedores e prazos.
 
-CONTRIBUIÇÃO DO DIME — Conectou estratégia, criação e operação. Sua organização ajudou a manter consistência nas publicações, dar previsibilidade aos projetos e cumprir os cronogramas das produções.
+MINHA MINHA CONTRIBUIÇÃO — Conectei estratégia, criação e operação. Minha organização ajudou a manter consistência nas publicações, dar previsibilidade aos projetos e cumprir os cronogramas das produções.
 
 COMPETÊNCIAS — LinkedIn Marketing, estratégia de conteúdo, planejamento editorial, copywriting, revisão, SEO on-page, análise de engajamento, gestão de projetos, coordenação de equipes, Trello, Google Sheets, relacionamento com clientes, produção audiovisual e controle de qualidade.`,
     art: 'art-culture',
@@ -77,19 +77,19 @@ COMPETÊNCIAS — LinkedIn Marketing, estratégia de conteúdo, planejamento edi
       {
         title: 'Estratégia de LinkedIn',
         count: 'MAR–JUN 2026',
-        description: 'Planejamento editorial, copywriting, revisão, agendamento e SEO on-page. O alcance orgânico cresceu 120% sobre o desempenho inicial, sem mídia paga.',
+        description: 'Atuei com planejamento editorial, copywriting, revisão, agendamento e SEO on-page. O alcance orgânico cresceu 120% sobre o desempenho inicial, sem mídia paga.',
         skills: ['LinkedIn Marketing', 'Conteúdo', 'SEO on-page', 'Engajamento']
       },
       {
         title: 'Gestão de projetos',
         count: 'OUT 2025–MAR 2026',
-        description: 'Coordenação de equipes, cronogramas e entregas; alinhamentos com clientes e controle de qualidade. A organização dos fluxos trouxe mais previsibilidade.',
+        description: 'Coordenei equipes, cronogramas e entregas, conduzi alinhamentos com clientes e acompanhei o controle de qualidade. Organizei os fluxos para trazer mais previsibilidade.',
         skills: ['Planejamento', 'Trello', 'Google Sheets', 'Gestão de equipe']
       },
       {
         title: 'Produção audiovisual',
         count: 'AGO 2025–JUN 2026',
-        description: 'Suporte operacional e logístico a eventos, organização de materiais e equipamentos e acompanhamento de equipes de campo e fornecedores.',
+        description: 'Apoiei a operação e a logística de eventos, organizei materiais e equipamentos e acompanhei equipes de campo e fornecedores.',
         skills: ['Produção', 'Logística', 'Cronogramas', 'Qualidade']
       }
     ]
@@ -97,23 +97,23 @@ COMPETÊNCIAS — LinkedIn Marketing, estratégia de conteúdo, planejamento edi
   {
     title: 'Comunicação que acompanha',
     meta: 'EdTech · Marketing · CRM · Customer Success · 2020–2024',
-    intro: 'Da primeira conversa à retenção, Dime conectou conteúdo, automação e atendimento para tornar a jornada dos alunos mais clara, próxima e consistente.',
-    body: `CONTEXTO — Atuação em uma empresa de educação digital, conectando Comunicação, Marketing e Customer Success.
+    intro: 'Da primeira conversa à retenção, conectei conteúdo, automação e atendimento para tornar a jornada dos alunos mais clara, próxima e consistente.',
+    body: `CONTEXTO — Atuei em uma empresa de educação digital, conectando Comunicação, Marketing e Customer Success.
 
-TRAJETÓRIA — Quatro frentes ao longo de quatro anos: Comercial (set/2020–mar/2021), Customer Success (abr/2021–ago/2022), Marketing (ago/2022–set/2024) e Assistente de Marketing (out–dez/2024).
+TRAJETÓRIA — Atuei em quatro frentes ao longo de quatro anos: Comercial (set/2020–mar/2021), Customer Success (abr/2021–ago/2022), Marketing (ago/2022–set/2024) e Assistente de Marketing (out–dez/2024).
 
-COMUNICAÇÃO E CRM — Dime planejou e escreveu campanhas de e-mail e mensagens transacionais, estruturou réguas multicanal e produziu conteúdo para comunidades e redes sociais. Também organizou FAQs, automações e rotinas de acompanhamento no HubSpot e em ferramentas de trabalho colaborativo.
+COMUNICAÇÃO E CRM — Planejei e escrevi campanhas de e-mail e mensagens transacionais, estruturei réguas multicanal e produzi conteúdo para comunidades e redes sociais. Também organizei FAQs, automações e rotinas de acompanhamento no HubSpot e em ferramentas de trabalho colaborativo.
 
-JORNADA DO ALUNO — No atendimento, acompanhou uma carteira ativa com média de 30 a 40 usuários por dia, registrando interações e criando macros para agilizar dúvidas recorrentes. Na frente comercial, apoiou prospecção, pós-venda e fidelização com conversas claras e orientação sobre os próximos passos.
+JORNADA DO ALUNO — No atendimento, acompanhei uma carteira ativa com média de 30 a 40 usuários por dia, registrando interações e criando macros para agilizar dúvidas recorrentes. Na frente comercial, apoiei prospecção, pós-venda e fidelização com conversas claras e orientação sobre os próximos passos.
 
-CONTRIBUIÇÃO — Seu trabalho aproximou conteúdo, relacionamento e operação: organizou fluxos, ajudou a manter uma comunicação consistente entre canais e transformou dúvidas e necessidades dos usuários em orientações e ações de relacionamento.`,
+MINHA CONTRIBUIÇÃO — Meu trabalho aproximou conteúdo, relacionamento e operação: organizei fluxos, ajudei a manter uma comunicação consistente entre canais e transformei dúvidas e necessidades dos usuários em orientações e ações de relacionamento.`,
     art: 'art-wellness',
     caseSummary: { eyebrow: 'RELACIONAMENTO · CONTEÚDO · JORNADA', headline: 'Comunicação contínua, do primeiro contato à permanência.', stats: [{ value: '4', label: 'frentes de atuação' }, { value: '30–40', label: 'usuários atendidos por dia' }] },
     caseSections: [
-      { title: 'Assistente de Marketing', count: 'Out–Dez 2024', description: 'Geriu comunidades e apoiou conteúdo para redes sociais. Planejou calendários multicanal, organizou projetos e criou peças no Canva. Contribuiu para ações de engajamento e retenção.', skills: ['Community management', 'Marketing de conteúdo', 'Calendário editorial', 'Canva', 'Trello · Sheets · Slides'] },
-      { title: 'Atendimento Jr. — Marketing', count: 'Ago 2022–Set 2024', description: 'Planejou e operou campanhas de e-mail no HubSpot, construiu réguas de comunicação, atualizou FAQs e moderou comunidades. Ajudou a dar consistência à comunicação e à jornada de relacionamento.', skills: ['CRM', 'HubSpot', 'E-mail marketing', 'Automação', 'WhatsApp · Telegram · Push'] },
-      { title: 'Atendimento Jr. — Customer Success', count: 'Abr 2021–Ago 2022', description: 'Acompanhou uma carteira ativa, atendendo em média 30 a 40 usuários por dia por e-mail, telefone e WhatsApp. Registrou interações no HubSpot e criou macros para agilizar solicitações recorrentes.', skills: ['Experiência do cliente', 'Suporte multicanal', 'HubSpot', 'Macros e automações'] },
-      { title: 'Atendimento Jr. — Comercial', count: 'Set 2020–Mar 2021', description: 'Apoiou prospecção, venda e pós-venda de cursos de graduação. Organizou leads e vendas e participou de pesquisas de mercado para identificar diferenciais e oportunidades de melhoria.', skills: ['Relacionamento comercial', 'Prospecção', 'Pós-venda', 'Pesquisa de mercado', 'Google Workspace'] }
+      { title: 'Assistente de Marketing', count: 'Out–Dez 2024', description: 'Geri comunidades e apoiei conteúdo para redes sociais. Planejei calendários multicanal, organizei projetos e criei peças no Canva. Contribuí para ações de engajamento e retenção.', skills: ['Community management', 'Marketing de conteúdo', 'Calendário editorial', 'Canva', 'Trello · Sheets · Slides'] },
+      { title: 'Atendimento Jr. — Marketing', count: 'Ago 2022–Set 2024', description: 'Planejei e operei campanhas de e-mail no HubSpot, construí réguas de comunicação, atualizei FAQs e moderei comunidades. Ajudei a dar consistência à comunicação e à jornada de relacionamento.', skills: ['CRM', 'HubSpot', 'E-mail marketing', 'Automação', 'WhatsApp · Telegram · Push'] },
+      { title: 'Atendimento Jr. — Customer Success', count: 'Abr 2021–Ago 2022', description: 'Acompanhei uma carteira ativa, atendendo em média 30 a 40 usuários por dia por e-mail, telefone e WhatsApp. Registrei interações no HubSpot e criei macros para agilizar solicitações recorrentes.', skills: ['Experiência do cliente', 'Suporte multicanal', 'HubSpot', 'Macros e automações'] },
+      { title: 'Atendimento Jr. — Comercial', count: 'Set 2020–Mar 2021', description: 'Apoiei prospecção, venda e pós-venda de cursos de graduação. Organizei leads e vendas e participei de pesquisas de mercado para identificar diferenciais e oportunidades de melhoria.', skills: ['Relacionamento comercial', 'Prospecção', 'Pós-venda', 'Pesquisa de mercado', 'Google Workspace'] }
     ],
     mediaGalleryTitle: 'Materiais da case',
     mediaGallery: [
