@@ -138,7 +138,25 @@ function openProject(index) {
   document.querySelector('#dTitle').textContent = project.title;
   document.querySelector('#dMeta').textContent = project.meta;
   document.querySelector('#dIntro').textContent = project.intro;
-  document.querySelector('#dBody').innerHTML = project.body.replaceAll('\n', '<br>');
+  const body = document.querySelector('#dBody');
+  body.replaceChildren();
+  project.body.split(/\n\s*\n/).filter(Boolean).forEach((topic) => {
+    const card = document.createElement('article');
+    card.className = 'idea-card';
+    const separator = topic.indexOf(' — ');
+    if (separator !== -1) {
+      const heading = document.createElement('h3');
+      heading.textContent = topic.slice(0, separator);
+      const text = document.createElement('p');
+      text.textContent = topic.slice(separator + 3);
+      card.append(heading, text);
+    } else {
+      const text = document.createElement('p');
+      text.textContent = topic;
+      card.append(text);
+    }
+    body.append(card);
+  });
   const art = document.querySelector('#dArt');
   art.replaceChildren();
   if (project.caseSummary) {
