@@ -280,7 +280,14 @@ document.querySelector('.close').addEventListener('click', closeProject);
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') closeProject();
 });
-document.querySelectorAll('a[href^="#"]:not([href="#"])').forEach((link) => {
+document.querySelectorAll('.orbit-link[data-open-project]').forEach((link) => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    openProject(Number(link.dataset.openProject));
+  });
+});
+
+document.querySelectorAll('a[href^="#"]:not([href="#"]):not([data-open-project])').forEach((link) => {
   link.addEventListener('click', () => {
     if (detail.classList.contains('open')) closeProject();
   });
