@@ -1198,4 +1198,4 @@ body:hover .cursor {
 }
 
 /* Texto de apoio entre a base do título e o convite das cases. */
-@media(min-width:701px) { .projects .section-head .projects-intro { transform:translateY(32px); } }
+@media(min-width:701px) { .projects .section-head .projects-intro { transform:translateY(56px); } }
