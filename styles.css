@@ -1136,3 +1136,17 @@ body:hover .cursor {
  .projects-invitation { border-radius:18px; padding:12px 14px; font-size:13px; }
  .projects-expand-hint { font-size:13px; }
 }
+
+/* Biografia alinhada ao retrato e emoldurada em branco */
+.about-overview { grid-template-areas:"identity intro" "portrait details"; row-gap:28px; }
+.about-portrait-column, .about-bio { display:contents; }
+.about-portrait-column .about-identity { grid-area:identity; margin-bottom:0; }
+.about-portrait-column .about-photo-frame.about-photo-flow { grid-area:portrait; }
+.about-bio > .about-intro { grid-area:intro; align-self:center; margin-bottom:0; }
+.about-details { grid-area:details; align-self:start; padding:26px; border:1px solid rgba(255,255,255,.9); }
+.about-details p:last-child { margin-bottom:0; }
+.about-copy > .stats { border-top-color:rgba(255,255,255,.9); }
+@media(max-width:700px) {
+ .about-overview { grid-template-areas:"identity" "portrait" "intro" "details"; row-gap:28px; }
+ .about-details { padding:22px; }
+}
