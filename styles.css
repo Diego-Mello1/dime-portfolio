@@ -1196,3 +1196,6 @@ body:hover .cursor {
 @media(min-width:701px) {
  .about-portrait-column .about-photo-frame.about-photo-flow { margin-top:64px; }
 }
+
+/* Texto de apoio entre a base do título e o convite das cases. */
+@media(min-width:701px) { .projects .section-head .projects-intro { transform:translateY(32px); } }
