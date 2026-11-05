@@ -1144,7 +1144,7 @@ body:hover .cursor {
 .about-portrait-column .about-photo-frame.about-photo-flow { grid-area:portrait; }
 .about-bio > .about-intro { grid-area:intro; align-self:end; margin-bottom:0; transform:translateY(-40px); }
 .about-details { grid-area:details; align-self:start; position:relative; padding:64px 72px; border:0; isolation:isolate; }
-.about-details::before { content:""; position:absolute; inset:-8px; z-index:-1; pointer-events:none; opacity:.45; background:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20400%22%20preserveAspectRatio%3D%22none%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M69%2035%20H531%22%20stroke%3D%22white%22%20stroke-width%3D%221.6%22%20vector-effect%3D%22non-scaling-stroke%22%2F%3E%3Cpath%20d%3D%22M81%20379%20H519%22%20stroke%3D%22white%22%20stroke-width%3D%223%22%20vector-effect%3D%22non-scaling-stroke%22%2F%3E%3Cpath%20d%3D%22M35%2043%20L35%20344%20M35%2078%20C61%2057%2061%2013%2043%2012%20C23%2011%2038%2031%2046%2023%20C59%2049%2025%2088%2017%20123%20C3%20185%2012%20268%2035%20344%20M35%20344%20C18%20293%20-13%20337%204%20365%20C19%20391%2056%20390%2083%20379%20C50%20378%2025%20368%2014%20350%22%20stroke%3D%22white%22%20stroke-width%3D%221.3%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20vector-effect%3D%22non-scaling-stroke%22%2F%3E%3Cpath%20d%3D%22M35%2043%20L35%20344%20M35%2078%20C61%2057%2061%2013%2043%2012%20C23%2011%2038%2031%2046%2023%20C59%2049%2025%2088%2017%20123%20C3%20185%2012%20268%2035%20344%20M35%20344%20C18%20293%20-13%20337%204%20365%20C19%20391%2056%20390%2083%20379%20C50%20378%2025%20368%2014%20350%22%20transform%3D%22translate(600%200)%20scale(-1%201)%22%20stroke%3D%22white%22%20stroke-width%3D%221.3%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20vector-effect%3D%22non-scaling-stroke%22%2F%3E%3C%2Fsvg%3E") center/100% 100% no-repeat; }
+.about-details::before { content:none; }
 .about-details p:last-child { margin-bottom:0; }
 .about-copy > .stats { border-top-color:rgba(255,255,255,.9); }
 @media(max-width:700px) {
@@ -1158,3 +1158,6 @@ body:hover .cursor {
 @media(max-width:700px) { .about-bio > .about-intro { align-self:start; } }
 
 @media(max-width:700px) { .about-bio > .about-intro { transform:none; } }
+
+/* Moldura simples, arredondada e branca, sem transparência. */
+.about-details { border:1px solid #fff; border-radius:24px; }
