@@ -67,7 +67,7 @@ GESTÃO DE PROJETOS — De outubro de 2025 a março de 2026, acompanhei cronogra
 
 PRODUÇÃO AUDIOVISUAL — De agosto de 2025 a junho de 2026, apoiei a operação e a logística de eventos, coordenei equipes de campo, organizei materiais e equipamentos e acompanhei fornecedores e prazos.
 
-MINHA MINHA CONTRIBUIÇÃO — Conectei estratégia, criação e operação. Minha organização ajudou a manter consistência nas publicações, dar previsibilidade aos projetos e cumprir os cronogramas das produções.
+MINHA CONTRIBUIÇÃO — Conectei estratégia, criação e operação. Minha organização ajudou a manter consistência nas publicações, dar previsibilidade aos projetos e cumprir os cronogramas das produções.
 
 COMPETÊNCIAS — LinkedIn Marketing, estratégia de conteúdo, planejamento editorial, copywriting, revisão, SEO on-page, análise de engajamento, gestão de projetos, coordenação de equipes, Trello, Google Sheets, relacionamento com clientes, produção audiovisual e controle de qualidade.`,
     art: 'art-culture',
